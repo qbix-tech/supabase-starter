@@ -36,6 +36,10 @@ jobs:
             exit 1
           fi
 
+      - name: Cleanup
+        if: always()
+        run: supabase stop --no-backup
+
   dryrun:
     runs-on: self-hosted
     env:
