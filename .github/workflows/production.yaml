@@ -8,7 +8,7 @@ on:
 
 jobs:
   migrate:
-    runs-on: self-hosted
+    runs-on: gha-runner-ubuntu
     environment:
       name: production
       url: ${{ vars.PRODUCTION_SUPABASE_URL }}

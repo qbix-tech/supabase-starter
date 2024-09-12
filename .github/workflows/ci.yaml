@@ -15,7 +15,7 @@ on:
 
 jobs:
   test:
-    runs-on: self-hosted
+    runs-on: gha-runner-ubuntu
 
     steps:
       - uses: actions/checkout@v4
