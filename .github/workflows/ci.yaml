@@ -15,7 +15,7 @@ on:
 
 jobs:
   test:
-    runs-on: gha-runner-ubuntu
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
