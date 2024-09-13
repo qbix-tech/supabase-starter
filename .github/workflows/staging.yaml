@@ -8,7 +8,7 @@ on:
 
 jobs:
   migrate:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     environment:
       name: staging
       url: ${{ vars.STAGING_SUPABASE_URL }}

@@ -8,7 +8,7 @@ on:
 
 jobs:
   migrate:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     environment:
       name: production
       url: ${{ vars.PRODUCTION_SUPABASE_URL }}
